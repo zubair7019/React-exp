@@ -1,0 +1,9 @@
+.expenses{
+    padding: 1rem;
+    background-color: rgba(85, 212, 216, 0.692);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(rgb(207, 175, 175), rgb(9, 241, 9), rgb(86, 86, 189), alpha);
+}
