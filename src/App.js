@@ -35,7 +35,7 @@ const App = () => {
   ];
   const [val, setVal] = useState(expense);
   const adddexpenseHandler = (exp) => {
-    setVal([...expense,exp]);
+    setVal([exp,...val]);
   };
 
   return (

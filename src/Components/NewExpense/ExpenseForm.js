@@ -48,6 +48,8 @@ const ExpenseForm = (props) => {
     setEnteredLocation(event.target.value);
   };
 
+  
+   
   const submitHandler = (event) => {
     event.preventDefault();
     const expenseData = {

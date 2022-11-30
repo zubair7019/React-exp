@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
 
 
 const ExpenseItem = (props) => {
-  //function delhandler
+  
+  //function delhandler//
   
   const clickHandler = () => {
     setTitle("updated");
